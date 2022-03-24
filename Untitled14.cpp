@@ -12,7 +12,7 @@ a=sin(abs(k))/0.1+9.4*sin(3*k-2.5);
 while (fabs(a) > e)	
 {
 a=pow((-1),k)*((sin(abs(k))/0.1+9.4*sin(3*k-2.5))*pow(x,k)/fact);
-S+= a;
+S+= a+0;
 k++;
 fact*= k;
 }
